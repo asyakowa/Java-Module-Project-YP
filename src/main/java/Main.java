@@ -25,7 +25,7 @@ public class Main {
                 break; }
             priceProduct = input.getDouble("Введите стоимость. Стоимость должна быть больше 0, дробную цену можно записать через точку/запятую. Например, 2,15 или 2.15");
             productList.add(new Product(nameProduct, priceProduct));
-            calculate.addsum( priceProduct);
+            calculate.addsum( priceProduct );
 
             String messageTemplate = "Товар %s со стоимостью %.2f " + formatter.formate(priceProduct) + " был добавлен в список товаров. ";
             System.out.printf(messageTemplate, nameProduct, priceProduct);

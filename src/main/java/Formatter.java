@@ -1,4 +1,4 @@
- public class Formatter {
+ public class Formatter{
     public String formate(double price) {
         price=Math.floor(price);
         if ( price % 10 == 1 && price  % 100 !=11 ){

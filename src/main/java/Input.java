@@ -21,7 +21,7 @@ public class Input {
                 int kolichestvo = scanner.nextInt();
                 scanner.nextLine();
                 if (kolichestvo>1) return kolichestvo;
-                System.out.println("Вы указали неверное значение, укажите значение больше 1");
+                System.out.println("Вы указали неверное значение, укажите значение больше 1.");
 
 
             }

@@ -9,7 +9,7 @@ public void calculate (int quantity) {
    Formatter formatter = new Formatter();
     double floortotalPrice = (this.summa / quantity);
     String messageTemplate = "Сумма к оплате с одного человека: %.2f "+ " " + formatter.formate(floortotalPrice);
-   System.out.printf(messageTemplate, floortotalPrice ) ;
+   System.out.printf(messageTemplate, floortotalPrice) ;
 
 }
 

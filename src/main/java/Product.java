@@ -21,6 +21,6 @@ public class Product {
     public String getNameProduct() {
     return nameProduct; }
 
-    public double getPriceProduct() {
+    public double getPriceProduct(){
         return priceProduct;
     } }
